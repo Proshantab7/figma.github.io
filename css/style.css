@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-width {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.first-page .img-banner nav {
+    position: absolute;
+    top: 20px;
+    left: 61px;
+    z-index: 1;
+}
+
+.first-page .img-banner nav ul {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    list-style-type: none;
+    column-gap: 40px;
+}
+
+.first-page .img-banner nav ul li i {
+    font-size: 25px;
+    vertical-align: sub;
+}
+
+.first-page .img-banner nav ul li:hover {
+    color: #FF960A;
+}
+
+.first-page .img-banner nav button {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    background: #FF960A;
+    padding: 19px 53px;
+    display: inline-block;
+}
+
+.first-page .img-banner .content {
+    width: 833px;
+    position: absolute;
+    top: 248px;
+    left: 332px;
+    text-align: center;
+}
+
+.first-page .img-banner .content h1 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.first-page .img-banner .content button {
+    margin-top: 42px;
+    margin-left: 8px;
+    color: #000;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 19px 53px;
+    display: inline-block;
+}
+
+.first-page .img-banner .content button:hover {
+    background-color: #FF960A;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.first-page .img-banner {
+    position: relative;
+    width: 1440px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.first-page .img-banner img {
+    width: 100%;
+}
+
+.first-page .img-banner .vector {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.second-page {
+    margin-top: 47px;
+}
+
+.second-page>.flex {
+    align-items: flex-start;
+    margin-bottom: 102px;
+}
+
+.second-page .content .content-text {
+    width: 613px;
+}
+
+.second-page .content .content-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 75px;
+}
+
+.second-page .content .content-text hr {
+    width: 79px;
+    height: 2px;
+    background: #C4C4C4;
+    margin: 40px 0 40px 4px;
+}
+
+.second-page .content .content-text p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.second-page .content .content-text h2 {
+    font-size: 18px;
+    font-weight: 400;
+    column-gap: 9px;
+    justify-content: flex-start;
+    margin: 0 0 5px 4px;
+}
+
+.second-page .content .content-text h2:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background: #C4C4C4;
+    display: inline-block;
+}
+
+.second-page .content-img {
+    column-gap: 35px;
+}
+
+.second-page .footer .container.flex {
+    column-gap: 54.55px;
+}
+
+.second-page .footer .box {
+    width: 285px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 34px;
+}
+
+.second-page .one {
+    background: url("../images/box.png") no-repeat 0 0 / cover, #FFF4E5;
+
+}
+
+.second-page .two {
+    background: url("../images/box.png") no-repeat 0 0 / cover, #E7FDE9;
+}
+
+.second-page .three {
+    background: url("../images/box.png") no-repeat 0 0 / cover, #F2F2FD;
+
+}
+
+.second-page .four {
+    background: url("../images/box.png") no-repeat 0 0 / cover, #FDF1F5;
+
+}
+
+.second-page .box h2 {
+    color: #000;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.second-page .box p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.third-page {
+    background-color: #0C3543;
+}
+
+.third-page .header h2 {
+    color: #FF960A;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 114px;
+}
+
+.third-page .content .content-text {
+    display: flex;
+    column-gap: 93px;
+    color: #fff;
+    margin-top: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.third-page .content .content-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    width: 404px;
+}
+
+.third-page .content .content-text p {
+    font-size: 18px;
+    font-weight: 700;
+    width: 650px;
+}
+
+.third-page .content hr {
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+    margin: 35px 0 72px 4px;
+}
+
+.third-page .content>.flex {
+    flex-wrap: wrap;
+    row-gap: 52px;
+}
+
+.third-page .content .box {
+    background-color: #0F4152;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.third-page .content .box h2 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.third-page .content .box p {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+    padding-bottom: 23px;
+}
+
+.third-page .footer {
+    background: url("../images/footer-background.png") no-repeat 0 0 / 100% 100%;
+    margin-top: 165px;
+    padding-bottom: 30px;
+}
+
+.third-page .footer h2 {
+    color: #FFF;
+    font-family: 'Arizonia', cursive;
+    font-size: 160px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.fourth-page {
+    background: #FF9600;
+    /* transform: scaleY(1.019); */
+    margin-top: -6px;
+}
+
+.fourth-page .container {
+    text-align: center;
+}
+
+.fourth-page .container img {
+    margin-top: 69px;
+}
+
+.fourth-page .container h1 {
+    color: #FFF;
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 27px;
+}
+
+.fourth-page .container p {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 27px;
+}
+
+.fourth-page .container button {
+    color: #fff;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 19px 53px;
+    display: inline-block;
+    margin-top: 47px;
+    margin-left: 19px;
+    margin-bottom: 146px;
+}
+
+.fourth-page .container button i {
+    margin-right: 5px;
+}
+
+.fourth-page .container button:hover {
+    background: #0C3543;
+    color: #fff;
+    border: 1px solid transparent;
+}
